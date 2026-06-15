@@ -6,4 +6,5 @@ public class CertificateInfo
     public string Issuer { get; set; } = "";
     public string Thumbprint { get; set; } = "";
     public DateTime NotAfter { get; set; }
+    public bool HasPrivateKey { get; set; }
 }

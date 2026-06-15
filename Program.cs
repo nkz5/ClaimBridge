@@ -15,6 +15,9 @@ builder.Services.AddScoped<FakeClaimSdk>();
 builder.Services.AddScoped<TaskService>();
 builder.Services.AddScoped<CertService>();
 
+builder.Services.AddScoped<CertService>();
+builder.Services.AddScoped<SignatureService>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
